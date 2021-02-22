@@ -1,0 +1,45 @@
+---
+title: "Seasonal changes in global listening habits."
+output: 
+  flexdashboard::flex_dashboard:
+    storyboard: true
+---
+
+```{r}
+library(tidyverse)
+library(plotly)
+library(spotifyr)
+library(compmus)
+```
+
+### Introduction
+
+In this experiment I will focus on unearthing seasonal trends in musical listenership. Using as large a slice as possible of the most popular song on Spotify on any given day of the year (if possible over the past several years to further increase the data I have to work with), I will attempt to quantify trends in genre, artist, song length, and any other statistic I where such a trend could be reasonably extrapolated.
+
+
+### Dataset analysis
+
+Placeholder text
+
+### Visualizations 1: Basic dataset distribution
+
+```{r}
+```
+
+*** 
+
+Placeholder commentary: Bar graphs for genre, song length, bpm, valence, and other general analyses to pin down the distributions that exist in the dataset as a whole, as a prelude to finding seasonal trends.
+
+### Visualizations 2: Basic seasonal changes
+
+```{r}
+```
+
+*** 
+
+Placeholder commentary: The same barplots as before, but now with time on the x axis. Steps (ie days per bin) to be determined by distribution of results to best show off trends.
+
+
+### Visualizations 3: Region-specific trends
+
+### Conclusions
